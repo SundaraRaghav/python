@@ -1,0 +1,8 @@
+def max_customers_served(X, Y):
+    return X * Y
+
+# Read input
+X, Y = map(int, input().split())
+
+# Calculate and print the result
+print(max_customers_served(X, Y))
